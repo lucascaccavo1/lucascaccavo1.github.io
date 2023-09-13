@@ -2,11 +2,22 @@ body {
     font-family: Arial, Helvetica, sans-serif
 }
 h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif; color: midnightblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     color: midnightblue;
+     text-align: center;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;color:cadetblue
 }
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container img {
+    position: relative;
+    top:0;
+    left:0;
+    
+}
+.left-list {
+    margin-left: -20px;
 }
