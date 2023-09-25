@@ -1,19 +1,33 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: black;
+    
 }
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
      color: midnightblue;
      text-align: center;
+     background-color: lightslategray;
+     padding-left: 10px;
+     padding-right: 10px;
 }
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;color:cadetblue
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
 }
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: midnightblue;
+    background-color: lightslategray;
+    display: inline-block;
+    padding: 5px;
 }
 .container img {
-    position: relative;
+    position: absolute;
     top:0;
     left:0;
     
@@ -21,3 +35,22 @@ h3{
 .left-list {
     margin-left: -20px;
 }
+.banner {
+    background-color: bisque;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.contact {
+    text-align: right;
+    flex: 1;
+    
+}
+.background {
+    background-color: white ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
