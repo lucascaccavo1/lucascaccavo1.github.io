@@ -26,12 +26,7 @@ h3{
     display: inline-block;
     padding: 5px;
 }
-.container  {
-    position: relative;
-    top:0;
-    left:0;
-    
-}
+
 .left-list {
     margin-left: -20px;
 }
@@ -43,15 +38,21 @@ h3{
    
 }
 .contact {
-    text-align: right;
-    flex: 1;
-    color: white;
+    background-color: lightslategray;
+    display: inline-block;
+    padding: 5px;
     
+    text-align: right;
+    
+    color: white;
+    /*flex: 1;*/ 
 }
 .background {
-    background-color: white ;
+    background-color: whitesmoke ;
     background-size: cover;
-    background-position: center;
+    
     background-repeat: no-repeat;
 }
-
+ul {
+    list-style-type: square;
+}
