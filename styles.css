@@ -29,9 +29,11 @@ h3{
     padding: 5px;
 }
 
-.left-list {
+.left-list li{
     margin-left: -20px;
+    margin-bottom: 10px;
 }
+
 .banner {
     background-color:midnightblue;
    display: flex;
