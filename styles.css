@@ -26,8 +26,8 @@ h3{
     display: inline-block;
     padding: 5px;
 }
-.container img {
-    position: absolute;
+.container  {
+    position: relative;
     top:0;
     left:0;
     
@@ -36,7 +36,7 @@ h3{
     margin-left: -20px;
 }
 .banner {
-    background-color: bisque;
+    background-color:midnightblue;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -45,6 +45,7 @@ h3{
 .contact {
     text-align: right;
     flex: 1;
+    color: white;
     
 }
 .background {
