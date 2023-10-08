@@ -1,3 +1,4 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -11,8 +12,9 @@ h1 {
      color: midnightblue;
      text-align: center;
      background-color: lightslategray;
-     padding-left: 10px;
+     padding-left: 20px;
      padding-right: 10px;
+     
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -23,34 +25,32 @@ h2 {
 }
 h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
     color: midnightblue;
     background-color: lightslategray;
     display: inline-block;
     padding: 5px;
 }
+h4{
+    font-size: medium;
+    color: black;
+}
 
 .left-list li{
-    margin-left: -20px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    list-style-image: url(dot.png);
 }
 
 .banner {
-    background-color:midnightblue;
+    background-color:rgb(155, 155, 218);
    display: flex;
    justify-content: center;
    align-items: center;
    
 }
-.contact {
-    background-color: lightslategray;
-    display: inline-block;
-    padding: 5px;
-    
-    text-align: right;
-    
-    color: white;
+
     /*flex: 1;*/ 
-}
+
  /*.background {
     background-color: whitesmoke ;
     background-size: cover;
@@ -59,4 +59,14 @@ h3{
 }*/
 ul {
     list-style-image: url(dot.png)
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: midnightblue;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
 }
